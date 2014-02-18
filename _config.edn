@@ -1,0 +1,12 @@
+{ :signing-service "http://nextpress-signer.herokuapp.com"
+  :store { :type :github
+           :owner "bhauman"
+           :repo "test-website"
+           :client_id "01d0480f7420a8e45aac"
+           :redirect_uri "http://nextpress.dev/test.html"
+           :login_server "http://localhost:4567" }
+  :bucket  "nextpress-demo"
+  :brand "NEXTPRESS DEMO"
+  :title "NEXTPRESS" }
+
+
