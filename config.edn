@@ -1,0 +1,5 @@
+{ :signing-service "http://nextpress-signer.herokuapp.com"
+  :bucket  "nextpress-demo"
+  :brand "NEXTPRESS DEMO"
+  :title "NEXTPRESS" }
+
