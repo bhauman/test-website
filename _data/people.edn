@@ -1,0 +1,6 @@
+{ items: [{:fname "George"
+           :lname "Wash"}
+          {:fname "Fred"
+           :lname "Wash"}
+          {:fname "Sarah"
+           :lname "Make"}]}
