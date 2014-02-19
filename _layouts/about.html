@@ -1,0 +1,81 @@
+{ :layout "default" }
+
+<div id="blue">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <%= page.getSection("Header") %>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+</div><!--  bluewrap -->
+
+<div class="container w">
+
+  <div class="row centered">
+    <br><br>
+    <div class="col-lg-3">
+      <%= page.getSection("Person 1") %>
+    </div><!-- col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= page.getSection("Person 2") %>
+    </div><!-- col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= page.getSection("Person 3") %>
+    </div><!-- col-lg-3 -->
+
+    <div class="col-lg-3">
+      <%= page.getSection("Person 4") %>
+    </div><!-- col-lg-3 -->
+
+  </div><!-- row -->
+  <br>
+  <br>
+</div><!-- container -->
+
+<!-- PORTFOLIO SECTION -->
+<div id="dg">
+  <div class="container">
+    <div class="row centered">
+      <h4>OUR SKILLS</h4>
+      <br>
+      
+      <!-- First Chart -->
+      <div class="col-lg-3">
+        <%= renderPartial("skill_circle_graph", {value: 70}) %>
+        <%= page.getSection("Skills 1") %>
+      </div><!-- /col-lg-3 -->
+
+      <!-- Second Chart -->
+      <div class="col-lg-3">
+        <%= renderPartial("skill_circle_graph", {value: 90}) %>
+        <%= page.getSection("Skills 2") %>
+      </div><!-- /col-lg-3 -->
+      
+      <!-- Third Chart -->
+      <div class="col-lg-3">
+        <%= renderPartial("skill_circle_graph", {value: 50}) %>
+        <%= page.getSection("Skills 3") %>
+      </div><!-- /col-lg-3 -->
+      
+      <!-- Fourth Chart -->
+      <div class="col-lg-3">
+        <%= renderPartial("skill_circle_graph", {value: 80}) %>
+        <%= page.getSection("Skills 4") %>
+      </div><!-- /col-lg-3 -->
+      
+    </div><!-- row -->
+  </div><!-- container -->
+</div><!-- DG -->
+
+<div id="r">
+  <div class="container">
+    <div class="row centered">
+      <div class="col-lg-8 col-lg-offset-2">
+        <%= getPage("_site_src/index.edn").getSection("Brand Statement") %>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+</div><! -- r wrap -->
